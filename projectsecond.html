@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Profile - आर्यन सिंह साउद</title>
+    <link rel="stylesheet" href="projectsecond.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="fblogo.html.jpeg" alt="error logo" />
+      </div>
+      <ul class="icon-list">
+        <li><img src="https://cdn-icons-png.flaticon.com/512/1828/1828859.png" alt="Grid Icon"></li>
+        <li><img src="https://cdn-icons-png.flaticon.com/512/2111/2111624.png" alt="Messenger Icon"></li>
+        <li><img src="https://cdn-icons-png.flaticon.com/512/1827/1827428.png" alt="Bell Icon"></li>
+        <li><img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Profile Icon"></li>
+      </ul>
+    </header>
+
+    <main>
+      <div class="profile-picture">
+        <img src="profilephoto.jpg" alt="Profile Picture" />
+      </div>
+      <h1>आर्यन सिंह साउद</h1>
+      <p>948 followers • 20 following</p>
+
+      <div class="button-container">
+        <button onclick="showMessage('Professional Dashboard')">Professional Dashboard</button>
+        <button onclick="showMessage('Edit Profile')">Edit</button>
+        <button onclick="showMessage('Advertise')">Advertise</button>
+        <button onclick="toggleDropdown()">▼</button>
+      </div>
+      
+      <!-- Dropdown Menu -->
+      <div class="dropdown-menu" style="display: none;">
+        <ul>
+          <li>Settings</li>
+          <li>Privacy</li>
+          <li>Help</li>
+          <li>Logout</li>
+        </ul>
+      </div>
+
+      <nav>
+        <ul>
+          <li>Posts</li>
+          <li>About</li>
+          <li>Reels</li>
+          <li>Photos</li>
+          <li>More</li>
+        </ul>
+      </nav>
+
+      <section class="intro">
+        <h2>Intro</h2>
+        <p>Add bio</p>
+        <ul>
+          <li>Profile • Digital Creator</li>
+          <li>Works at Facebook</li>
+          <li>Studies at Brightland College</li>
+          <li>From Kailali, Nepal</li>
+        </ul>
+        <button onclick="showMessage('Edit Details')">Edit Details</button>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Facebook. All rights reserved.</p>
+    </footer>
+
+    <script src="projectsecond.js"></script>
+  </body>
+</html>
